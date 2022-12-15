@@ -49,7 +49,7 @@ const { data, isFetching, execute } = useMyFetch('/todos/1', {
       <div>
         Complete：
         <span>
-          {{ data.complete ? '🟢' : '🔴' }}
+          {{ data.completed ? '🟢' : '🔴' }}
         </span>
       </div>
     </template>
